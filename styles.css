@@ -2,3 +2,71 @@
 color : white;
 background-color : black;    
 }
+
+.butta {                     
+color : whitesmoke;
+background-color : black;
+border:5px solid pink;
+}
+
+/* that was class selector */
+
+#amg {
+    height : auto;
+    width : 400px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border: 5px solid pink;  
+}
+
+ /* these two are id selectors */
+
+#maybach {
+    height : auto;
+    width : 400px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border: 5px solid pink;
+    } 
+
+#gwagon {
+    height : auto;
+    width : 400px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border: 5px solid pink;  
+            
+}
+
+#heading {
+    text-align: center;
+    font-weight: 700;
+}
+
+#subheading {
+    text-align: center;
+}
+
+#contents {
+padding-block: 40px;
+margin-left: 40px;
+margin-right: 40px;
+border: 15px solid palevioletred;
+}
+
+#lists {
+    margin-left:40px;
+    margin-right:1100px;
+}
+
+.column {
+      float: left;
+      width: 32%;
+      padding: 5px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}

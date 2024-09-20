@@ -7,8 +7,11 @@
     <title>Mercedes</title>
 </head>
 <body>
-                              <h1>MERCEDES</h1>
-                             <h5>Estb: 1926</h5>
+
+<h1 id="heading">MERCEDES</h1>
+<h5 id="subheading">Estb: 1926</h5>
+
+<div id="contents">
 <p><strong>Mercedes-Benz</strong> is a globally renowned luxury automobile manufacturer known for its 
 innovation, quality, and engineering excellence. Founded in 1926, the brand has long 
 been synonymous with sophistication and cutting-edge technology. Its <em>iconic three-pointed
@@ -34,8 +37,11 @@ customizable features to meet individual preferences. Whether it's the executive
 </strong>the sporty <strong>AMG line</strong>, or the versatile <strong>G-Class SUV</strong>, Mercedes vehicles are designed to 
 offer unparalleled comfort and status, making them a favorite among luxury car enthusiasts 
 worldwide.</p>
+</div>
 
+<div id="lists">
 <h3>Mercedes have three major sub-brands :</h3>
+
 <ol>
     <li>Mercdes-AMG</li>
     <li>Mercedes-Maybach</li>
@@ -43,21 +49,36 @@ worldwide.</p>
 </ol>
 
 <h3>Major Technologies introduces by Mercedes :</h3>
+
 <ul>
      <li>ABS - Anti Lock Breaking System</li>
      <li>ADAS - Advanced Driver's Assistant System</li>
-
-
 </ul>
+</div>
 
-<a href="https://www.mercedes-benz.com/en/"> Mercedes Official Website</a><br>
-<a href=" https://www.youtube.com/channel/UClj0L8WZrVydk5xKOscI6-A">Mercedes Offical Youtube Channel</a><br>
+<button class="butta">
+<a href="https://www.mercedes-benz.com/en/"> Mercedes Official Website</a>
+</button>
 
+<button class="butta">
+<a href=" https://www.youtube.com/channel/UClj0L8WZrVydk5xKOscI6-A">Mercedes Offical Youtube Channel</a>
+</button>
 
+<button class="butta">
 <a href="./pages/greetings.html"> Author : Divyansh Dubey </a>
+</button>
 
-<img src="./img/amg.jpeg" height="480" width="300"> <br>         
-<img src="./img/maybach.jpeg" height="350" width="300"> <br>
+<div class="row">
+    <div class="column">
+        <img id="amg" src = ./img/AMG.jpeg alt="AMG" title="AMG">
+    </div>
+    <div class="column">
+        <img id="maybach" src = ./img/MAYBACH.jpeg>
+    </div>   
+    <div class="column">
+        <img id="gwagon" src = ./img/GWAGON.jpeg > 
+    </div>  
+</div>
 
 </body>
 </html>
@@ -68,3 +89,5 @@ worldwide.</p>
  its children and they are siblings-->
 
  <!-- ctrl + l also works here to make any line a comment  -->
+
+ <!-- i inlcuded the buttons in butta and then styled the butta using class selector -->
