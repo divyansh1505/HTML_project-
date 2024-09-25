@@ -3,10 +3,20 @@ color : white;
 background-color : black;    
 }
 
-.butta {                     
-color : whitesmoke;
-background-color : black;
-border:5px solid pink;
+button {
+    background-color : black;      
+    border:5px solid palevioletred;
+    cursor: pointer;
+    margin-inline: 2px;
+    padding: 5px;
+}
+
+/* ye upar vala .button me nhi daalna tha as vo poori class pr lag jata border
+individual buttons pr ni lgta */
+
+.button {         
+    text-align: center;     
+    color : whitesmoke;
 }
 
 /* that was class selector */
@@ -16,7 +26,7 @@ border:5px solid pink;
     width : 400px;
     margin-left: 0px;
     margin-top: 20px;
-    border: 5px solid pink;  
+    border: 5px solid white;  
 }
 
  /* these two are id selectors */
@@ -26,7 +36,7 @@ border:5px solid pink;
     width : 400px;
     margin-left: 0px;
     margin-top: 20px;
-    border: 5px solid pink;
+    border: 5px solid white;
     } 
 
 #gwagon {
@@ -34,7 +44,7 @@ border:5px solid pink;
     width : 400px;
     margin-left: 0px;
     margin-top: 20px;
-    border: 5px solid pink;  
+    border: 5px solid white;  
             
 }
 
@@ -49,14 +59,16 @@ border:5px solid pink;
 
 #contents {
 padding-block: 40px;
+padding-right: 40px;
+padding-left: 40px;
 margin-left: 40px;
 margin-right: 40px;
-border: 15px solid palevioletred;
+border: 12px solid palevioletred;
 }
 
 #lists {
     margin-left:40px;
-    margin-right:1100px;
+    margin-right:auto;
 }
 
 .column {
@@ -70,3 +82,93 @@ border: 15px solid palevioletred;
     display: table;
     clear: both;
 }
+
+#hgh {
+    background-color: white;
+    color : black;
+}
+
+#hggh {
+    background-color: white;
+    color: black;
+}
+
+#exp {
+    border: 2px solid #000;  /* Big outer box */
+    padding: 20px;           /* Add padding inside the box */
+    width: 60%;              /* Adjust width as needed */
+    margin: 0 auto;          /* Center the box on the page */
+    background-color: #f9f9f9; /* Light background for a clean look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for better look */
+  }
+  
+  #exp ol {
+    display: flex;           /* Horizontal layout */
+    list-style: none;        /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+    
+    justify-content: space-between; /* Even spacing between items */
+  }
+  
+  #exp li {
+    flex: 1;                 /* Make items take up equal space */
+    padding-right: 20px;           /* Add space around text inside each item */
+    padding-left: 20px;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    text-align: center;      /* Center the text */
+    border-left: 2px solid #000; /* Vertical line between items */
+    font-family: Arial, sans-serif; /* Clean, modern font */
+    font-weight: bold;
+  }
+  
+  #exp li:first-child {
+    border-left: none;       /* Remove the left border for the first item */
+  }
+  
+  #exp li:hover {
+    background-color: #e0e0e0; /* Light gray hover effect */
+    cursor: pointer;           /* Pointer on hover */
+  }
+  
+  #exxp {
+    border: 2px solid #000;  
+    padding: 20px;           
+    width: 40%;              
+    margin: 0 auto;         
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+  }
+  
+  #exxp ol {
+    display: flex;           
+    list-style: none;        
+    padding: 0;
+    margin: 0;
+    justify-content: space-between; 
+  }
+  
+  #exxp li {
+    flex: 1;                 
+    /* padding: 20px;   */
+    padding-right: 20px;           /* Add space around text inside each item */
+    padding-left: 20px;
+    padding-top: 30px; 
+    padding-bottom: 30px;         
+    text-align: center;      
+    border-left: 2px solid #000; 
+    font-family: Arial, sans-serif; 
+    font-weight: bold;
+  }
+  
+  #exxp li:first-child {
+    border-left: none;  
+  }     
+  
+  #exxp li:hover {
+    background-color: #e0e0e0; 
+    cursor: pointer;           
+  }
+  
